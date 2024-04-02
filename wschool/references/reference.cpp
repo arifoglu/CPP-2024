@@ -13,5 +13,7 @@ int main(){
     cout << ptr_num <<endl;//0x5ffe4c
     cout << &num <<endl;  // 0x5ffe4c
 
+    cout << *&num <<endl;  // 23
+
     return 0;
 }

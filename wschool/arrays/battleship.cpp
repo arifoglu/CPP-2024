@@ -19,7 +19,7 @@ int main(){
         cout << "Choose a row between 0 and 3 :";
         cin  >> row;
 
-        cout << "Choose a column between 0 and 3 :";
+        cout << "Choose a column between 0 and 3 : ";
         cin  >> column;
 
         if(ships[row][column]){
